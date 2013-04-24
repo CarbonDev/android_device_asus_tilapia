@@ -18,6 +18,9 @@
 # name
 PRODUCT_RELEASE_NAME := Nexus7-GSM
 
+# OVERLAY_TARGET adds overlay asset source
+OVERLAY_TARGET := pa_tvdpi
+
 # device
 $(call inherit-product, device/asus/tilapia/full_tilapia.mk)
 
