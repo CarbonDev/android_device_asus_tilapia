@@ -30,5 +30,3 @@ $(call inherit-product, device/asus/grouper/device-common.mk)
 
 # inherit from the non-open-source side, if present
 $(call inherit-product-if-exists, vendor/asus/tilapia/device-vendor.mk)
-
-$(call inherit-product, frameworks/native/build/tablet-7in-hdpi-1024-dalvik-heap.mk)
