@@ -28,7 +28,7 @@ PRODUCT_LOCALES := en_US de_DE zh_CN zh_TW cs_CZ nl_BE nl_NL en_AU en_GB en_CA e
 $(call inherit-product, vendor/carbon/config/common_tablet.mk)
 
 # gsm
-$(call inherit-product, vendor/carbon/config/common_gsm.mk)
+$(call inherit-product, vendor/carbon/config/telephony.mk)
 
 # products
 PRODUCT_DEVICE := tilapia
